@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/cliplist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clip filesystem list paths across POSIX and Windows conventions.",
+  "bin": {
+    "cliplist": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/cliplist.git"
+  },
+  "homepage": "https://theworker02.github.io/cliplist/",
+  "keywords": [
+    "clip",
+    "list",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
